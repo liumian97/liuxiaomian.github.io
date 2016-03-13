@@ -60,10 +60,10 @@
 <meta name="description" content="原文主要来自 http://www.cnblogs.com/cspku/articles/Git_cmds.html
 
 基本上包含了平时用到的命令，亲测~
-1. 查看、添加、提交、删除、找回，重置修改文件git help &amp;lt;command&amp;gt; # 显示command的help
+查看、添加、提交、删除、找回，重置修改文件git help &amp;lt;command&amp;gt; # 显示command的help
 git show # 显示某次提交的内容 
 git show id
-git co -- &amp;lt;file&amp;gt">
+git co -- &amp;lt;file&amp;gt; #">
 <meta property="og:type" content="article">
 <meta property="og:title" content="常用git命令，记录一下">
 <meta property="og:url" content="http://yoursite.com/2016/03/13/常用git命令，记录一下/index.html">
@@ -71,20 +71,20 @@ git co -- &amp;lt;file&amp;gt">
 <meta property="og:description" content="原文主要来自 http://www.cnblogs.com/cspku/articles/Git_cmds.html
 
 基本上包含了平时用到的命令，亲测~
-1. 查看、添加、提交、删除、找回，重置修改文件git help &amp;lt;command&amp;gt; # 显示command的help
+查看、添加、提交、删除、找回，重置修改文件git help &amp;lt;command&amp;gt; # 显示command的help
 git show # 显示某次提交的内容 
 git show id
-git co -- &amp;lt;file&amp;gt">
-<meta property="og:updated_time" content="2016-03-13T09:58:26.000Z">
+git co -- &amp;lt;file&amp;gt; #">
+<meta property="og:updated_time" content="2016-03-13T10:00:26.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="常用git命令，记录一下">
 <meta name="twitter:description" content="原文主要来自 http://www.cnblogs.com/cspku/articles/Git_cmds.html
 
 基本上包含了平时用到的命令，亲测~
-1. 查看、添加、提交、删除、找回，重置修改文件git help &amp;lt;command&amp;gt; # 显示command的help
+查看、添加、提交、删除、找回，重置修改文件git help &amp;lt;command&amp;gt; # 显示command的help
 git show # 显示某次提交的内容 
 git show id
-git co -- &amp;lt;file&amp;gt">
+git co -- &amp;lt;file&amp;gt; #">
 
 
 
@@ -312,7 +312,7 @@ git co -- &amp;lt;file&amp;gt">
 <p>原文主要来自 <a href="http://www.cnblogs.com/cspku/articles/Git_cmds.html" target="_blank" rel="external">http://www.cnblogs.com/cspku/articles/Git_cmds.html</a></p>
 </blockquote>
 <p>基本上包含了平时用到的命令，亲测~</p>
-<h2 id="1-查看、添加、提交、删除、找回，重置修改文件"><a href="#1-查看、添加、提交、删除、找回，重置修改文件" class="headerlink" title="1. 查看、添加、提交、删除、找回，重置修改文件"></a>1. 查看、添加、提交、删除、找回，重置修改文件</h2><pre><code>git help &lt;command&gt; # 显示command的help
+<h2 id="查看、添加、提交、删除、找回，重置修改文件"><a href="#查看、添加、提交、删除、找回，重置修改文件" class="headerlink" title="查看、添加、提交、删除、找回，重置修改文件"></a>查看、添加、提交、删除、找回，重置修改文件</h2><pre><code>git help &lt;command&gt; # 显示command的help
 git show # 显示某次提交的内容 
 git show id
 git co -- &lt;file&gt; # 抛弃工作区修改
@@ -329,19 +329,19 @@ git ci -am &quot;some comments&quot;
 git ci --amend # 修改最后一次提交记录
 git revert &lt;$id&gt; # 恢复某次提交的状态，恢复动作本身也创建次提交对象
 git revert HEAD # 恢复最后一次提交的状态
-</code></pre><h2 id="2-查看文件diff"><a href="#2-查看文件diff" class="headerlink" title="2. 查看文件diff"></a>2. 查看文件diff</h2><pre><code>git diff &lt;file&gt; # 比较当前文件和暂存区文件差异 git diff
+</code></pre><h2 id="查看文件diff"><a href="#查看文件diff" class="headerlink" title="查看文件diff"></a>查看文件diff</h2><pre><code>git diff &lt;file&gt; # 比较当前文件和暂存区文件差异 git diff
 git diff &lt;id1&gt;&lt;id2&gt; # 比较两次提交之间的差异
 git diff &lt;branch1&gt;..&lt;branch2&gt; # 在两个分支之间比较
 git diff --staged # 比较暂存区和版本库差异
 git diff --cached # 比较暂存区和版本库差异
 git diff --stat # 仅仅比较统计信息
-</code></pre><h2 id="3-查看提交记录"><a href="#3-查看提交记录" class="headerlink" title="3. 查看提交记录"></a>3. 查看提交记录</h2><pre><code>git log git log &lt;file&gt; # 查看该文件每次提交记录
+</code></pre><h2 id="查看提交记录"><a href="#查看提交记录" class="headerlink" title="查看提交记录"></a>查看提交记录</h2><pre><code>git log git log &lt;file&gt; # 查看该文件每次提交记录
 git log -p &lt;file&gt; # 查看每次详细修改内容的diff
 git log -p -2 # 查看最近两次详细修改内容的diff
 git log --stat #查看提交统计信息
 tig
 Mac上可以使用tig代替diff和log，brew install tig
-</code></pre><h2 id="4-Git-本地分支管理-–查看、切换、创建和删除分支"><a href="#4-Git-本地分支管理-–查看、切换、创建和删除分支" class="headerlink" title="4. Git 本地分支管理 –查看、切换、创建和删除分支"></a>4. Git 本地分支管理 –查看、切换、创建和删除分支</h2><pre><code>git br -r # 查看远程分支
+</code></pre><h2 id="Git-本地分支管理-–查看、切换、创建和删除分支"><a href="#Git-本地分支管理-–查看、切换、创建和删除分支" class="headerlink" title="Git 本地分支管理 –查看、切换、创建和删除分支"></a>Git 本地分支管理 –查看、切换、创建和删除分支</h2><pre><code>git br -r # 查看远程分支
 git br &lt;new_branch&gt; # 创建新的分支
 git br -v # 查看各个分支最后提交信息
 git br --merged # 查看已经被合并到当前分支的分支
@@ -361,7 +361,7 @@ git rebase master &lt;branch&gt; # 将master rebase到branch，相当于： git 
 git diff &gt; ../sync.patch # 生成补丁
 git apply ../sync.patch # 打补丁
 git apply --check ../sync.patch #测试补丁能否成功
-</code></pre><h2 id="5-Git暂存管理"><a href="#5-Git暂存管理" class="headerlink" title="5.  Git暂存管理"></a>5.  Git暂存管理</h2><pre><code>git stash # 暂存
+</code></pre><h2 id="Git暂存管理"><a href="#Git暂存管理" class="headerlink" title="Git暂存管理"></a>Git暂存管理</h2><pre><code>git stash # 暂存
 git stash list # 列所有stash
 git stash apply # 恢复暂存的内容
 git stash drop # 删除暂存区
@@ -378,13 +378,13 @@ git push -u origin master # 将本地主分支推到远程(如无远程主分支
 git push origin &lt;local_branch&gt; # 创建远程分支， origin是远程仓库名
 git push origin &lt;local_branch&gt;:&lt;remote_branch&gt; # 创建远程分支
 git push origin :&lt;remote_branch&gt; #先删除本地分支(git br -d &lt;branch&gt;)，然后再push删除远程分支
-</code></pre><h2 id="7-Git远程仓库管理"><a href="#7-Git远程仓库管理" class="headerlink" title="7. Git远程仓库管理"></a>7. Git远程仓库管理</h2><pre><code>GitHub
+</code></pre><h2 id="Git远程仓库管理"><a href="#Git远程仓库管理" class="headerlink" title="Git远程仓库管理"></a>Git远程仓库管理</h2><pre><code>GitHub
 git remote -v # 查看远程服务器地址和仓库名称
 git remote show origin # 查看远程服务器仓库状态
 git remote add origin git@ github:robbin/robbin_site.git # 添加远程仓库地址
 git remote set-url origin git@ github.com:robbin/robbin_site.git # 设置远程仓库地址(用于修改远程仓库地址) 
 git remote rm &lt;repository&gt; # 删除远程仓库
-</code></pre><h2 id="8-创建远程仓库"><a href="#8-创建远程仓库" class="headerlink" title="8. 创建远程仓库"></a>8. 创建远程仓库</h2><pre><code>git clone --bare robbin_site robbin_site.git # 用带版本的项目创建纯版本仓库
+</code></pre><h2 id="创建远程仓库"><a href="#创建远程仓库" class="headerlink" title="创建远程仓库"></a>创建远程仓库</h2><pre><code>git clone --bare robbin_site robbin_site.git # 用带版本的项目创建纯版本仓库
 scp -r my_project.git git@ git.csdn.net:~ # 将纯仓库上传到服务器上
 mkdir robbin_site.git &amp;&amp; cd robbin_site.git &amp;&amp; git --bare init # 在服务器创建纯仓库
 git remote add origin git@ github.com:robbin/robbin_site.git # 设置远程仓库地址
@@ -586,7 +586,7 @@ git branch --set-upstream develop origin/develop
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-查看、添加、提交、删除、找回，重置修改文件"><span class="nav-number">1.</span> <span class="nav-text">1. 查看、添加、提交、删除、找回，重置修改文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-查看文件diff"><span class="nav-number">2.</span> <span class="nav-text">2. 查看文件diff</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-查看提交记录"><span class="nav-number">3.</span> <span class="nav-text">3. 查看提交记录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-Git-本地分支管理-–查看、切换、创建和删除分支"><span class="nav-number">4.</span> <span class="nav-text">4. Git 本地分支管理 –查看、切换、创建和删除分支</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-Git暂存管理"><span class="nav-number">5.</span> <span class="nav-text">5.  Git暂存管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-Git远程仓库管理"><span class="nav-number">6.</span> <span class="nav-text">7. Git远程仓库管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-创建远程仓库"><span class="nav-number">7.</span> <span class="nav-text">8. 创建远程仓库</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#查看、添加、提交、删除、找回，重置修改文件"><span class="nav-number">1.</span> <span class="nav-text">查看、添加、提交、删除、找回，重置修改文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看文件diff"><span class="nav-number">2.</span> <span class="nav-text">查看文件diff</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看提交记录"><span class="nav-number">3.</span> <span class="nav-text">查看提交记录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git-本地分支管理-–查看、切换、创建和删除分支"><span class="nav-number">4.</span> <span class="nav-text">Git 本地分支管理 –查看、切换、创建和删除分支</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git暂存管理"><span class="nav-number">5.</span> <span class="nav-text">Git暂存管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git远程仓库管理"><span class="nav-number">6.</span> <span class="nav-text">Git远程仓库管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建远程仓库"><span class="nav-number">7.</span> <span class="nav-text">创建远程仓库</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
